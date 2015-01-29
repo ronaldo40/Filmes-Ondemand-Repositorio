@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="Filmes-Ondemand-Repositorio" name="Filmes Ondemand repository" version="0.0.2" provider-name="ronaldo40">
-	<extension point="xbmc.addon.repository" name="Filmes Ondemand Add-on Repository">
-		<info compressed="false">http://raw.github.com/ronaldo40/Filmes-Ondemand-Repositorio/master/addons.xml</info>
-		<checksum>http://raw.github.com/ronaldo40/Filmes-Ondemand-Repositorio/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/ronaldo40/Filmes-Ondemand-Repositorio/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Filmes Ondemand Addon</summary>
-		<description>Addon Description</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.filmes.funvideos" name="filmes" version="0.3.1" provider-name="ronaldo40">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -26,8 +11,8 @@
     <language>en</language>
     <platform>all</platform>
     <summary lang="en">filmes</summary>
-    <description lang="en">filmes ação:
-
+    <description lang="en">filmes ação: 
+	
 https://r16---sn-bg07dnez.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=4e437cdfd39f6628&itag=37&source=webdrive&ip=189.82.118.207&ipbits=0&expire=1424843814&sparams=cmbypass,expire,id,ip,ipbits,itag,mm,ms,mv,pl,requiressl,shardbypass,source&signature=1159831BEB04458C679436CDC96CEB963F275B61.55DAC52BF19475273EAE3DC30354B6803F292C0C&key=cms1&cms_redirect=yes&mm=30&ms=nxu&mt=1422251855&mv=m&pl=22
 https://r14---sn-bg07dn7e.googlevideo.com/videoplayback?requiressl=yes&shardbypass=yes&cmbypass=yes&id=89bcf11a17f618f6&itag=37&source=webdrive&ip=189.82.118.207&ipbits=0&expire=1424833201&sparams=cmbypass,expire,id,ip,ipbits,itag,mm,ms,mv,pl,requiressl,shardbypass,source&signature=6670A0BAF06FFD4BCD926C90832874CFD90EFA6C.3DE0B33F9B4D461E307DFB0FB10701DF66F7E6BB&key=cms1&cms_redirect=yes&mm=30&ms=nxu&mt=1422241233&mv=m&pl=22
 http://fs004.dropvideo.com/v/73e2d07093ae9076634045ce6aa12a8f.mp4?st=JseFce4c00L-iGUPO7O0kw
@@ -61,4 +46,3 @@ https://r9---sn-bg07dne6.googlevideo.com/videoplayback?requiressl=yes&shardbypas
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
